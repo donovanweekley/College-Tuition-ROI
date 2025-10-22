@@ -6,7 +6,7 @@ The complete analysis is available in the Jupyter Notebook: tuition_roi.ipynb.
 How to Run This Project
 Clone the repository:
 
-git clone https://github.com/YourUsername/Your-Repo-Name.git
+git clone https://github.com/donovanweekley/College-Tuition-ROI.git
 Install dependencies:
 
 pip install pandas plotly seaborn
