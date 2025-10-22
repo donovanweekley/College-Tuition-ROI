@@ -4,7 +4,7 @@ This project is a data analysis of the financial Return on Investment (ROI) for 
 
 The complete analysis is available in the Jupyter Notebook: tuition_roi.ipynb.
 
-## 🚀 Key Findings
+## Key Findings
 Top Performers: The analysis identified a number of institutions with a rapid return on investment, with the fastest estimated break-even times being just under 2 years.
 
 Cost vs. Earnings: A weak positive correlation was found between a college's total cost and its 10-year earnings premium. The wide confidence interval in the regression plot suggests that a higher price tag does not reliably guarantee a proportionally higher earnings premium.
@@ -13,7 +13,7 @@ Geographic Disparity: ROI varies significantly by state. The interactive choropl
 
 
 
-⚙️ How to Run This Project
+## How to Run This Project
 Clone the repository:
 
 git clone https://github.com/donovanweekley/College-Tuition-ROI.git
@@ -32,7 +32,7 @@ Download the data and place it in the project folder with the filename: Most-Rec
 
 Run the notebook: Open and run the tuition_roi.ipynb notebook.
 
-🔬 Methodology & Assumptions
+## Methodology & Assumptions
 This analysis relies on several key assumptions:
 
 Earnings Baseline: Uses a national median for high school graduates. It does not account for regional differences in cost of living or wages.
@@ -43,7 +43,7 @@ Scope: The analysis is at the institution level and does not differentiate by ma
 
 Data Limitations: The College Scorecard data includes suppressed values ("PS") for privacy. These rows were dropped, which could potentially skew the results for institutions with smaller cohort sizes.
 
-💡 Future Work
+## Future Work
 This analysis could be expanded in several ways:
 
 Integrate major-specific earnings data to provide more granular and actionable ROI estimates.
@@ -52,7 +52,7 @@ Incorporate regional cost-of-living data to create a more accurate, location-adj
 
 Analyze the impact of graduation rates and average student debt on the final break-even calculation.
 
-🛠️ Technology Used
+## Technology Used
 Python
 
 Jupyter Notebook
