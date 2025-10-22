@@ -3,15 +3,15 @@ This project is a data analysis of the financial Return on Investment (ROI) for 
 
 The complete analysis is available in the Jupyter Notebook: tuition_roi.ipynb.
 
-How to Run This Project
-Clone the repository:
+# How to Run This Project
 
+## Clone the repository:
 git clone https://github.com/donovanweekley/College-Tuition-ROI.git
-Install dependencies:
 
+## Install dependencies:
 pip install pandas plotly seaborn
-Download the data:
 
+## Download the data:
 This project requires the "Most Recent Cohorts" (Institution-Level) data file from the College Scorecard.
 
 Go to: collegescorecard.ed.gov/data/
@@ -22,7 +22,7 @@ Download the file (it will be a large CSV) and place it in the main project fold
 
 Run the notebook: Open and run the tuition_roi.ipynb notebook.
 
-Analysis & Key Features
+## Analysis & Key Features
 Data Pipeline: Ingested, cleaned, and processed data from multiple sources using pandas, handling missing/suppressed values ("PS") and converting data types.
 
 Metric Engineering: Developed two key metrics for the analysis:
@@ -33,7 +33,7 @@ Metric Engineering: Developed two key metrics for the analysis:
 
 Data Visualization: Conducted exploratory data analysis using matplotlib, seaborn, and plotly to identify key trends.
 
-Visualizations Included
+## Visualizations Included
 Top 10 Schools (Bar Chart): A bar chart identifying the top 10 institutions with the fastest (lowest) positive break-even times.
 
 Cost vs. Earnings (Scatter Plot): A regression plot analyzing the relationship between an institution's Total_Cost and its Earnings_Premium, complete with a line of best fit and a 95% confidence interval.
