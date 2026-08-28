@@ -1,0 +1,106 @@
+{
+  "All": {
+    "earn_premium_10yr": {
+      "mean": -11891.698863636364,
+      "ci_lower": -12328.50953598485,
+      "ci_upper": -11430.707916666668,
+      "sample_n": 5280
+    },
+    "roi_debt_adjusted": {
+      "mean": -0.1059587866182199,
+      "ci_lower": -0.5049541311320295,
+      "ci_upper": 0.5591165044003877,
+      "sample_n": 4938
+    },
+    "payback_period_years": {
+      "mean": 89.02077753779696,
+      "ci_lower": 71.43418142548596,
+      "ci_upper": 109.721844762419,
+      "sample_n": 926
+    },
+    "npv_20yr": {
+      "mean": -395425.8452663811,
+      "ci_lower": -399888.48247240373,
+      "ci_upper": -391199.4283099912,
+      "sample_n": 4938
+    }
+  },
+  "Public": {
+    "earn_premium_10yr": {
+      "mean": -10071.238289205703,
+      "ci_lower": -10614.308579429735,
+      "ci_upper": -9532.772428716904,
+      "sample_n": 1964
+    },
+    "roi_debt_adjusted": {
+      "mean": 0.7770912064075307,
+      "ci_lower": -0.29950267908656486,
+      "ci_upper": 2.35187695107362,
+      "sample_n": 1867
+    },
+    "payback_period_years": {
+      "mean": 79.14663366336632,
+      "ci_lower": 58.849003300330025,
+      "ci_upper": 103.56656765676566,
+      "sample_n": 303
+    },
+    "npv_20yr": {
+      "mean": -351040.7294255719,
+      "ci_lower": -355708.7299561109,
+      "ci_upper": -346329.19585652923,
+      "sample_n": 1867
+    }
+  },
+  "Private Nonprofit": {
+    "earn_premium_10yr": {
+      "mean": -1355.992527173913,
+      "ci_lower": -2245.0182404891307,
+      "ci_upper": -419.2751358695662,
+      "sample_n": 1472
+    },
+    "roi_debt_adjusted": {
+      "mean": -0.575738230455907,
+      "ci_lower": -0.5966708246467326,
+      "ci_upper": -0.5530162412168065,
+      "sample_n": 1368
+    },
+    "payback_period_years": {
+      "mean": 102.51120527306968,
+      "ci_lower": 76.2798686440678,
+      "ci_upper": 135.17303907721276,
+      "sample_n": 531
+    },
+    "npv_20yr": {
+      "mean": -314776.04844719666,
+      "ci_lower": -323264.69392142876,
+      "ci_upper": -306107.0215221609,
+      "sample_n": 1368
+    }
+  },
+  "Private For-Profit": {
+    "earn_premium_10yr": {
+      "mean": -22240.90943600868,
+      "ci_lower": -22915.984978308028,
+      "ci_upper": -21576.697993492406,
+      "sample_n": 1844
+    },
+    "roi_debt_adjusted": {
+      "mean": -0.6966787266118318,
+      "ci_lower": -0.7083119115786954,
+      "ci_upper": -0.6846537263975089,
+      "sample_n": 1703
+    },
+    "payback_period_years": {
+      "mean": 43.677826086956536,
+      "ci_lower": 28.343483695652175,
+      "ci_upper": 69.31925,
+      "sample_n": 92
+    },
+    "npv_20yr": {
+      "mean": -508870.3158027494,
+      "ci_lower": -514833.06494457927,
+      "ci_upper": -503017.5690683696,
+      "sample_n": 1703
+    }
+  }
+}

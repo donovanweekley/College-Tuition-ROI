@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_roi_plus1   R-squared:                       0.873
+Model:                            OLS   Adj. R-squared:                  0.873
+Method:                 Least Squares   F-statistic:                     3426.
+Date:                Fri, 28 Aug 2026   Prob (F-statistic):               0.00
+Time:                        16:01:58   Log-Likelihood:                -1149.5
+No. Observations:                3275   AIC:                             2311.
+Df Residuals:                    3269   BIC:                             2348.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        0.8917      0.021     41.829      0.000       0.850       0.933
+annual_cost              -3.536e-05   6.51e-07    -54.315      0.000   -3.66e-05   -3.41e-05
+midcareer_pay             2.472e-05   6.07e-07     40.739      0.000    2.35e-05    2.59e-05
+median_debt              -6.497e-05   1.68e-06    -38.752      0.000   -6.83e-05   -6.17e-05
+sector_Private_nonprofit     0.2017      0.014     14.186      0.000       0.174       0.230
+sector_Public                0.7032      0.015     45.495      0.000       0.673       0.733
+==============================================================================
+Omnibus:                      850.778   Durbin-Watson:                   1.264
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2405.947
+Skew:                           1.354   Prob(JB):                         0.00
+Kurtosis:                       6.210   Cond. No.                     2.84e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 2.84e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

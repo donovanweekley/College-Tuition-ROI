@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw and Processed Datasets (Scorecard CSVs exceed GitHub's 100MB limit)
+data/raw/*.zip
+data/raw/*.csv
+data/processed/*.parquet
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local outputs / logs / personal notes
+*.log
+docs/

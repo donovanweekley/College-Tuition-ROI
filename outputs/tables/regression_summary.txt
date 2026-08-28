@@ -1,0 +1,65 @@
+=== MODEL 1: DETERMINANTS OF DEBT-ADJUSTED NET ROI ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      roi_debt_adjusted   R-squared:                       0.613
+Model:                            OLS   Adj. R-squared:                  0.612
+Method:                 Least Squares   F-statistic:                     514.9
+Date:                Fri, 28 Aug 2026   Prob (F-statistic):               0.00
+Time:                        16:01:38   Log-Likelihood:                -1901.3
+No. Observations:                4307   AIC:                             3817.
+Df Residuals:                    4300   BIC:                             3861.
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        7.1723      0.368     19.508      0.000       6.452       7.893
+log_cost                    -0.7214      0.041    -17.430      0.000      -0.802      -0.640
+log_debt                    -0.1101      0.016     -6.890      0.000      -0.141      -0.079
+completion_rate_fill         0.4113      0.042      9.764      0.000       0.329       0.494
+stem_share_fill              0.5272      0.061      8.661      0.000       0.408       0.647
+sector_Private Nonprofit     0.2443      0.016     15.345      0.000       0.213       0.276
+sector_Public                0.2508      0.021     12.035      0.000       0.210       0.292
+==============================================================================
+Omnibus:                     4673.360   Durbin-Watson:                   1.594
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           630386.620
+Skew:                           5.267   Prob(JB):                         0.00
+Kurtosis:                      61.325   Cond. No.                         363.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+============================================================
+
+=== MODEL 2: DETERMINANTS OF LOG MID-CAREER EARNINGS ===
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           log_earnings   R-squared:                       0.500
+Model:                            OLS   Adj. R-squared:                  0.499
+Method:                 Least Squares   F-statistic:                     633.6
+Date:                Fri, 28 Aug 2026   Prob (F-statistic):               0.00
+Time:                        16:01:38   Log-Likelihood:                -197.48
+No. Observations:                4307   AIC:                             409.0
+Df Residuals:                    4300   BIC:                             453.5
+Df Model:                           6                                         
+Covariance Type:                  HC3                                         
+============================================================================================
+                               coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        8.2279      0.102     80.839      0.000       8.028       8.427
+log_cost                     0.2223      0.011     20.932      0.000       0.201       0.243
+completion_rate_fill         0.1870      0.028      6.685      0.000       0.132       0.242
+stem_share_fill              0.7035      0.053     13.189      0.000       0.599       0.808
+sector_Private Nonprofit     0.4303      0.011     38.110      0.000       0.408       0.452
+sector_Public                0.5253      0.012     42.882      0.000       0.501       0.549
+adm_rate_fill               -0.2381      0.034     -6.913      0.000      -0.306      -0.171
+==============================================================================
+Omnibus:                      347.383   Durbin-Watson:                   1.514
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1100.114
+Skew:                           0.400   Prob(JB):                    1.30e-239
+Kurtosis:                       5.343   Cond. No.                         223.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
